@@ -1,7 +1,7 @@
-const { } = require('./constants')
+const { ON, OFF } = require('./constants')
 
-function times(iterations = 1, callback) {
-  for (let i = 0; i < iterations; i++) {
+function times(iterations, callback) {
+  for (let i = 0; i < iterations - 1; i++) {
     callback(i)
   }
 }
@@ -41,7 +41,7 @@ function getNumberOfNeighbours(world, cellRow, cellCol) {
 }
 
 function initWorld() {
-
+  
 }
 
 function draw(world, row, col) {

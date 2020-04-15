@@ -23,16 +23,7 @@ function renderer(world) {
 
     console.log(string)
   })
-
-
-
-
-
-
-
-
-
-
+  
   console.log(string)
 }
 
